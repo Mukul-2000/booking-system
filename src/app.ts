@@ -13,9 +13,9 @@ const app = express();
 app.use(express.json());
 
 // Routes
-app.use('/users', userRoutes);
-app.use('/teachers', teacherRoutes);
-app.use('/sessions', sessionRoutes);
+app.use('/api/v1/users', userRoutes);
+app.use('/api/v1/teachers', teacherRoutes);
+app.use('/api/v1/sessions', sessionRoutes);
 
 // Error Handler (must be last)
 app.use(errorHandler);
