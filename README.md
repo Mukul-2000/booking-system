@@ -34,7 +34,7 @@ Ensure you have Node.js (v18+) and MongoDB installed.
 2. Installation
 
 # Clone the repository
-git clone <your-repo-url>
+git clone <repo-url>
 cd booking-system
 
 # Install dependencies
